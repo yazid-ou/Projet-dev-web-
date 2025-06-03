@@ -3,3 +3,61 @@
     color: white;
     text-align: center;
 }
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fdfdfd;
+  border-bottom: 1px solid #eaeaea;
+  font-family: Arial, sans-serif;
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.center-logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo {
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.butt {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+
+.butt:hover {
+  text-decoration: underline;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-btn span {
+  margin-left: 4px;
+  font-size: 13px;
+}
