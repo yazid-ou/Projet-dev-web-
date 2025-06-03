@@ -1,63 +1,103 @@
-.text{
-    background-color: black;
-    color: white;
-    text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
 .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: #fdfdfd;
-  border-bottom: 1px solid #eaeaea;
-  font-family: Arial, sans-serif;
+  padding: 30px 40px;
 }
 
-.left-nav,
-.right-nav {
+.R .logo {
+  height: 30px;
+}
+
+.nav {
   display: flex;
-  align-items: center;
   gap: 20px;
+  color: #5a7cff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.center-logo {
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.logo {
-  margin: 0;
-  font-weight: bold;
-  font-size: 22px;
+.but {
+  display: flex;
+  gap: 10px;
 }
 
 .butt {
-  background: none;
+  padding: 10px 20px;
   border: none;
-  font-size: 14px;
+  font-weight: bold;
   cursor: pointer;
-  color: #333;
+  border-radius: 5px;
 }
 
-.butt:hover {
-  text-decoration: underline;
+.butt.yellow {
+  background-color: #ffe082;
 }
 
-.icon-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
+.butt.blue {
+  background-color: #5a7cff;
+  color: white;
+}
+
+.tout {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 80px 40px;
 }
 
-.icon-btn img {
-  width: 16px;
-  height: 16px;
+.left {
+  width: 50%;
 }
 
-.icon-btn span {
-  margin-left: 4px;
-  font-size: 13px;
+.titre {
+  font-size: 40px;
+  color: #5a7cff;
+  font-weight: bold;
+}
+
+.soustitre {
+  margin: 20px 0;
+  color: #5a7cff;
+}
+
+.right .image {
+  width: 500px;
+  height: 300px;
+  background-color: #cde4ff;
+  border-radius: 10px;
+}
+.tout1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+}
+
+.left1 {
+  width: 50%;
+  
+}
+
+.titre1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.soustitre {
+  margin: 20px 0;
+  color: #5a7cff;
+}
+
+.right1 .image2 {
+  width: 500px;
+  height: 300px;
+  background-color: #cde4ff;
+  border-radius: 10px;
 }
